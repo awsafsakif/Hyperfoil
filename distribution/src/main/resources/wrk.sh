@@ -1,4 +1,6 @@
 #!/bin/bash
+echo $JAVA_HOME
+java -version
 
 source $(dirname $0)/parse-opts.sh
 ARGS="$@"
